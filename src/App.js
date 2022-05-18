@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+    // import routes
+import Pages from '/pages';
 const App=()=>{ return (
         <div>
-          <h1>Hello Notedly!</h1>
-          <p>Welcome to the Notedly application</p>
+          <Pages />
 </div> );
     };
     ReactDOM.render(<App />, document.getElementById('root'));
