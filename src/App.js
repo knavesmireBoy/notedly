@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
     // import routes
 import Pages from '/pages';
+import GlobalStyle from '/components/GlobalStyle';
 const App=()=>{ return (
         <div>
+            <GlobalStyle />
           <Pages />
 </div> );
     };

@@ -1,8 +1,10 @@
 import React from 'react';
-const Home=()=>{ return (
-        <div>
-          <h1>Notedly</h1>
-          <p>This is the home page</p>
-</div> );
+import { Link } from 'react-router-dom';
+import Header from '../components/Header';
+import Navigation from '../components/Navigation';
+const Home = () => { return ( <div>
+  <p>This is the home page</p>
+ </div>
+  );
 };
 export default Home;
