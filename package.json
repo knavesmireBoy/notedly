@@ -39,7 +39,7 @@
     "@testing-library/cypress": "5.0.2",
     "babel-core": "6.26.3",
     "babel-plugin-styled-components": "1.10.6",
-    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.1",
     "cypress": "3.6.1",
