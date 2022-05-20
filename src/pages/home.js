@@ -15,6 +15,7 @@ import ReactMarkdown from 'react-markdown';
             hasNextPage
             notes {
               id
+              createdAt
               content
               favoriteCount
               author {
