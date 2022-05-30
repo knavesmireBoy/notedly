@@ -15,7 +15,8 @@ const Form = styled.form` label,
 } `;
 
 const UserForm = props => {
-    // set the default state of the form const [values, setValues] = useState();
+    // set the default state of the form
+    const [values, setValues] = useState();
           // update the state when a user types in the form
     const onChange = event => { setValues({
     ...values,

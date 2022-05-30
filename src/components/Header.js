@@ -13,9 +13,7 @@ const IS_LOGGED_IN = gql` {
        isLoggedIn @client
      }
 `;
-
 const UserState = styled.div` margin-left: auto`;
-
 
 const HeaderBar = styled.header` width: 100%;
 padding: 0.5em 1em;
@@ -35,7 +33,7 @@ display: inline;
 const Header = props => { 
   
   // query hook for user logged in state
-  const { data } = useQuery(IS_LOGGED_IN);
+  const { data, client } = useQuery(IS_LOGGED_IN);
   
   return ( <HeaderBar>
     <img src={logo} alt="Notedly Logo" height="40" />

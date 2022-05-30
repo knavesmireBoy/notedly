@@ -17,7 +17,9 @@ onCompleted: data => {
 // store the token
 localStorage.setItem('token', data.signIn);
 // update the local cache
-client.writeData({ data: { isLoggedIn: true } }); // redirect the user to the homepage
+console.log(data);
+client.writeData({ data: { isLoggedIn: true } });
+// redirect the user to the homepage
 props.history.push('/');
 } });
 return ( <React.Fragment>
