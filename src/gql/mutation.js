@@ -14,4 +14,9 @@ mutation updateNote($id: ID!, $content: String!) {
   id }
   } }
   `;
-  export { EDIT_NOTE };
+  const DELETE_NOTE = gql` mutation deleteNote($id: ID!) {
+    deleteNote(id: $id)
+  }
+`;
+// update to include DELETE_NOTE
+export { EDIT_NOTE, DELETE_NOTE };
