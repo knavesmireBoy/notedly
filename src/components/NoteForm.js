@@ -15,12 +15,9 @@ const onChange = event => { setValue({
 };
 return ( <Wrapper>
           <Form
-            onSubmit={e => {
+            onSubmit = {e => {
               e.preventDefault();
-              props.action({
-                variables: {
-                  ...values
-} });
+              props.action({ variables: {...value } });
 }}
 > <TextArea
               required
